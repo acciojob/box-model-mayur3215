@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+/* Reset some default styles for the body and container */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+ /* Adjust this value as needed */
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 70px;
+    text-align: center;
+}
+
+/* Define the size and shape of the colored blocks */
+.red, .green, .yellow {
+    width: 100px; /* Adjust this value to control the size of the circles */
+    height: 100px; /* Make sure width and height are the same to create circles */
+    border-radius: 1000%; /* This makes the divs circular */
+    display: inline-block;
+    margin: 0 10px; /* Add some spacing between the blocks */
+}
+
+/* Define the background colors for the colored blocks */
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
